@@ -1,0 +1,71 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Chivo', sans-serif;
+font-family: 'Overpass', sans-serif;
+}
+:root{
+--main-color: #fff;
+--accent-color: #ffc901;
+}
+p{
+color: var(--main-color);
+}
+a{
+color: var(--accent-color);
+text-decoration: none;
+}
+img{
+display: block;
+}
+/* Header ============================================================================================================================================================================ */
+#header{
+height: 100vh;
+background: url(../img/bg/bg-1.png) center/cover;
+}
+.nav{
+grid-template-columns: 2fr 1fr 2fr;
+grid-gap: 100px;
+}
+/* Utility classes =================================================================================================================================================================== */
+.container{
+width: 80%;
+margin: 0 auto;
+max-width: 1920px;
+}
+.flex-container-center{
+display: flex;
+justify-content: center;
+}
+.flex-container{
+display: flex;
+justify-content: space-between;
+}
+.grid-container{
+display: grid;
+}
+.align-center{
+text-align: center;
+}
+.text-xs{
+font-size: 14px;
+font-family: 'Overpass', sans-serif;
+font-weight: 300;
+}
+.text-sm{
+font-size: 20px;
+font-family: 'Overpass', sans-serif;
+font-weight: 300;
+}
+.text-md{
+font-size: 30px;
+font-family: 'Overpass', sans-serif;
+font-weight: 300;
+}
+.text-lg{
+font-size: 40px;
+font-family: 'Chivo', sans-serif;
+font-weight: 400;
+text-transform: uppercase;
+}
