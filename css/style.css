@@ -94,6 +94,54 @@ text-align: center;
 text-align: center;
 margin-bottom: 40px;
 }
+
+
+
+/* Gallery section ============================================================================================================================================================================ */
+#gallery{
+background: url(../img/bg/bg-4.png) center/cover;
+padding: 150px 0;
+}
+.gallery-wrap{
+grid-template-areas:
+"prod1 prod2 prod3"
+"prod1 prod5 prod7"
+"prod4 prod5 prod7"
+"prod4 prod6 prod7"
+"prod4 prod6 prod7"
+;
+grid-gap: 20px;
+margin-top: 100px;
+}
+.gallery-wrap>div{
+border: 1px solid var(--accent-color);
+}
+#prod1{
+grid-area: prod1;
+}
+#prod2{
+grid-area: prod2;
+}
+#prod3{
+grid-area: prod3;
+}
+#prod4{
+grid-area: prod4;
+}
+#prod5{
+grid-area: prod5;
+}
+#prod6{
+grid-area: prod6;
+}
+#prod7{
+grid-area: prod7;
+}
+.gallery-wrap img{
+display: block;
+width: 100%;
+min-height: 100%;
+}
 /* Utility classes =================================================================================================================================================================== */
 .container{
 width: 80%;
