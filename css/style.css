@@ -81,6 +81,19 @@ width: fit-content;
 display: block;
 margin: 0 auto;
 }
+/* Quality section ============================================================================================================================================================================ */
+#quality{
+padding: 400px 0 300px;
+background: url(../img/bg/bg-3.png) center/cover;
+}
+.quality-wrap{
+grid-template-columns: 1fr 1fr;
+text-align: center;
+}
+.quality-wrap p:last-of-type{
+text-align: center;
+margin-bottom: 40px;
+}
 /* Utility classes =================================================================================================================================================================== */
 .container{
 width: 80%;
