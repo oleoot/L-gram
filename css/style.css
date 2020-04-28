@@ -66,9 +66,21 @@ margin: 100px 0 100px auto;
 .header-action{
 background: url(../img/bg/bg-1.1.png) center/cover;
 padding: 20px;
-/* background: rgba(255,255,255,0.2); */
 }
-
+/* About section ============================================================================================================================================================================ */
+#about{
+padding: 250px 0;
+background: url(../img/bg/bg-2.png) center/cover;
+}
+.about-wrap{
+grid-template-columns: 1fr 1fr;
+grid-gap: 150px;
+}
+.about-wrap a{
+width: fit-content;
+display: block;
+margin: 0 auto;
+}
 /* Utility classes =================================================================================================================================================================== */
 .container{
 width: 80%;
@@ -97,13 +109,20 @@ display: grid;
 .align-center{
 align-items: center;
 }
+.section-headline p{
+margin: 0 80px;
+}
+.section-description{
+text-align: center;
+margin: 150px 0 100px;
+}
 .text-xs{
 font-size: 14px;
 font-family: 'Overpass', sans-serif;
 font-weight: 300;
 }
 .text-sm{
-font-size: 20px;
+font-size: 25px;
 font-family: 'Overpass', sans-serif;
 font-weight: 300;
 }
